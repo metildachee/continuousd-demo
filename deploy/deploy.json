@@ -1,0 +1,14 @@
+{
+    "docker_image": {
+        "base_image": "node:16"
+    },
+    "run": {
+        "command": "./run_script.sh"
+    },
+    "deploy": {
+        "instances": {
+            "live": 2,
+            "staging": 1
+        }
+    }
+}
